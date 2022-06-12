@@ -4,13 +4,19 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Http\Response;
+=======
+>>>>>>> ce1b3bc5bcce499a50b1de0aa67bf6f39d0e91cb
 use App\Traits\ApiResponse;
 use App\Http\Requests\RegisterRequest;
 use App\Http\Requests\LoginRequest;
 use App\Models\User;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+=======
+>>>>>>> ce1b3bc5bcce499a50b1de0aa67bf6f39d0e91cb
 
 class AuthController extends Controller
 {

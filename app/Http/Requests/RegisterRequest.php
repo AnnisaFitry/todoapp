@@ -2,8 +2,11 @@
 
 namespace App\Http\Requests;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Http\FormRequest;
 
+=======
+>>>>>>> ce1b3bc5bcce499a50b1de0aa67bf6f39d0e91cb
 class RegisterRequest extends ApiRequest
 {
     /**
