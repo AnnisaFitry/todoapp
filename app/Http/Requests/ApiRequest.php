@@ -4,18 +4,14 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use App\Traits\ApiResponse;
-<<<<<<< HEAD
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Http\Response;
-=======
->>>>>>> ce1b3bc5bcce499a50b1de0aa67bf6f39d0e91cb
 
 abstract class ApiRequest extends FormRequest
 {
     use ApiResponse;
     /**
-<<<<<<< HEAD
      * Determine if the user is authorized to make this request.
      *
      * @return bool
@@ -35,13 +31,6 @@ abstract class ApiRequest extends FormRequest
             //
         ];
     }
-=======
-     * Get the validation rules that apply to this request.
-     *
-     * @return array
-     */
-    abstract public function rules();
->>>>>>> ce1b3bc5bcce499a50b1de0aa67bf6f39d0e91cb
     protected function failedValidation(Validator $validator)
     {
         throw new HttpResponseException($this->apiError( 
